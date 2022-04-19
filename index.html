@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/styles/styles.css" media="screen" />
 
+
     <title>Martinetflix</title>
 </head>
-<body style="background-color: black">
+<body class="fondo-negro letras-blancas">
 <nav>
     <div align="left">
         <a href="#"><img src="imagenes/martinetflix.png" alt="#" width="25%" height="25%"></a>
@@ -20,105 +21,234 @@
     </div>
 
     <div align="center">
-        <h3 style="color: white">Categorías:</h3>
-        <a href="#accion"><button>Acción</button></a>
-        <a href="#animacion"><button>Animación</button></a>
-        <a href="#aventura"><button>Aventura</button></a>
-        <a href="#terror"><button>Terror</button></a>
-        <a href="#suspenso"><button>Suspenso</button></a>
-        <a href="#infantiles"><button>Infantiles</button></a>
+        <h3>Categorías:</h3>
+        <a href="#accion"><button class="botones-general botones-index">Acción</button></a>
+        <a href="#animacion"><button class="botones-general botones-index">Animación</button></a>
+        <a href="#aventura"><button class="botones-general botones-index">Aventura</button></a>
+        <a href="#terror"><button class="botones-general botones-index">Terror</button></a>
+        <a href="#suspenso"><button class="botones-general botones-index">Suspenso</button></a>
+        <a href="#infantiles"><button class="botones-general botones-index">Infantiles</button></a>
     </div>
 
 
 
 </nav>
 
-
+<br/>
 <div>
-    <h2 id="accion" style="color: white">Acción</h2>
-    <h4 style="color: white">Películas</h4>
-    <ul>
-        <li><a href="peliculas/guardianes.html">Guardianes de la Galaxia</a></li>
-        <li><a href="peliculas/ironman.html">Iron Man</a></li>
-        <li><a href="peliculas/superman.html">Superman</a></li>
-        <li><a href="peliculas/ligajusticia.html">La Liga de la Justicia</a></li>
-        <li><a href="peliculas/batman.html">Batman</a></li>
-    </ul>
+    <h2 id="accion">Acción</h2>
+    <h4>Películas</h4>
+    <div class="container">
+        <div class="card">
+            <img src="imagenes/guardianes.jpg" alt="#">
+            <h4>Guardianes de la Galaxia</h4>
+            <a href="peliculas/guardianes.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/ironman.jpg" alt="#">
+            <h4>Iron Man</h4>
+            <a href="peliculas/ironman.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/superman.jpg" alt="#">
+            <h4>Superman</h4>
+            <a href="peliculas/superman.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/ligajusticia.jpg" alt="#">
+            <h4>La Liga de la Justicia</h4>
+            <a href="peliculas/ligajusticia.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/batman.jpg" alt="#">
+            <h4>Batman</h4>
+            <a href="peliculas/batman.html">Ver Película</a>
+        </div>
+    </div>
 
-    <h4 style="color: white">Series</h4>
-    <p style="color: white">No hay</p>
+    <h4>Series</h4>
+    <p>No hay</p>
 </div>
 
+
+
 <div>
-    <h2 id="animacion" style="color: white">Animación</h2>
-    <h4 style="color: white">Películas</h4>
-    <ul>
-        <li><a href="peliculas/bobesponja.html">Bob Esponja</a></li>
-        <li><a href="peliculas/kungfupanda.html">Kung Fu Panda</a></li>
-        <li><a href="peliculas/dalmatas.html">101 Dálmatas</a></li>
-        <li><a href="peliculas/shrek.html">Shrek</a></li>
-        <li><a href="peliculas/hielo.html">La Era del Hielo</a></li>
-    </ul>
+    <h2 id="animacion">Animación</h2>
+    <h4>Películas</h4>
+    <div class="container">
+        <div class="card">
+            <img src="imagenes/bobesponja.jpg" alt="#">
+            <h4>Bob Esponja</h4>
+            <a href="peliculas/bobesponja.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/kunfupanda.jpg" alt="#">
+            <h4>Kung Fu Panda</h4>
+            <a href="peliculas/kungfupanda.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/dalmatas.jpg" alt="#">
+            <h4>101 Dálmatas</h4>
+            <a href="peliculas/dalmatas.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/shrek.jpg" alt="#">
+            <h4>Shrek</h4>
+            <a href="peliculas/shrek.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/hielo.jpg" alt="#">
+            <h4>La Era del Hielo</h4>
+            <a href="peliculas/hielo.html">Ver Película</a>
+        </div>
+    </div>
 
     <h4 style="color: white">Series</h4>
     <p style="color: white" >No hay</p>
 </div>
 
+
 <div>
     <h2 id="aventura" style="color: white">Aventura</h2>
     <h4 style="color: white">Películas</h4>
-    <ul>
-        <li><a href="peliculas/doctorstrange.html">Doctor Strange</a></li>
-        <li><a href="peliculas/pasajeros.html">Pasajeros</a></li>
-        <li><a href="peliculas/mulan.html">Mulan</a></li>
-        <li><a href="peliculas/jumanji.html">Jumanji</a></li>
-        <li><a href="peliculas/hercules.html">Hércules</a></li>
-    </ul>
+
+    <div class="container">
+        <div class="card">
+            <img src="imagenes/doctorstrange.jpg" alt="#">
+            <h4>Doctor Strange</h4>
+            <a href="peliculas/doctorstrange.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/pasajeros.jpg" alt="#">
+            <h4>Pasajeros</h4>
+            <a href="peliculas/pasajeros.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/mulan.jpg" alt="#">
+            <h4>Mulan</h4>
+            <a href="peliculas/mulan.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/jumanji.jpg" alt="#">
+            <h4>Jumanji</h4>
+            <a href="peliculas/jumanji.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/hercules.jpg" alt="#">
+            <h4>Hércules</h4>
+            <a href="peliculas/hercules.html">Ver Película</a>
+        </div>
+    </div>
 
     <h4 style="color: white">Series</h4>
     <p style="color: white">No hay</p>
 </div>
+
+
 
 <div>
     <h2 id="terror" style="color: white">Terror</h2>
     <h4 style="color: white">Películas</h4>
-    <ul>
-        <li><a href="peliculas/elaro.html">El Aro</a></li>
-        <li><a href="peliculas/destinofinal.html">Destino Final</a></li>
-        <li><a href="peliculas/conjuro.html">El Conjuro</a></li>
-        <li><a href="peliculas/anabelle.html">Annabelle</a></li>
-        <li><a href="peliculas/actividad.html">Actividad Paranormal</a></li>
-    </ul>
+    <div class="container">
+        <div class="card">
+            <img src="imagenes/elaro.jpg" alt="#">
+            <h4>El Aro</h4>
+            <a href="peliculas/elaro.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/destino.jpg" alt="#">
+            <h4>Destino Final</h4>
+            <a href="peliculas/destinofinal.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/conjuro.jpg" alt="#">
+            <h4>El Conjuro</h4>
+            <a href="peliculas/conjuro.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/anabelle.jpg" alt="#">
+            <h4>Annabelle</h4>
+            <a href="peliculas/anabelle.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/actividad.jpg" alt="#">
+            <h4>Actividad Paranormal</h4>
+            <a href="peliculas/actividad.html">Ver Película</a>
+        </div>
+    </div>
 
     <h4 style="color: white">Series</h4>
     <p style="color: white">No hay</p>
 </div>
+
+
 
 <div>
     <h2 id="suspenso" style="color: white">Suspenso</h2>
     <h4 style="color: white">Películas</h4>
-    <ul>
-        <li><a href="peliculas/aguas.html">Aguas Profundas</a></li>
-        <li><a href="peliculas/acusada.html">Acusada</a></li>
-        <li><a href="peliculas/contratiempo.html">Contratiempo</a></li>
-        <li><a href="peliculas/birdbox.html">Bird Box</a></li>
-        <li><a href="peliculas/scream.html">Scream</a></li>
-    </ul>
+    <div class="container">
+        <div class="card">
+            <img src="imagenes/aguas.jpg" alt="#">
+            <h4>Aguas Profundas</h4>
+            <a href="peliculas/aguas.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/acusada.jpg" alt="#">
+            <h4>Acusada</h4>
+            <a href="peliculas/acusada.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/contratiempo.jpg" alt="#">
+            <h4>Contratiempo</h4>
+            <a href="peliculas/contratiempo.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/birdbox.jpg" alt="#">
+            <h4>Bird Box</h4>
+            <a href="peliculas/birdbox.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/scream.jpg" alt="#">
+            <h4>Scream</h4>
+            <a href="peliculas/scream.html">Ver Película</a>
+        </div>
+    </div>
 
     <h4 style="color: white">Series</h4>
     <p style="color: white">No hay</p>
 </div>
 
+
 <div>
-    <h2 id="infantiles" style="color: white" >Infantiles</h2>
+    <h2 id="infantiles" >Infantiles</h2>
     <h4 style="color: white">Películas</h4>
-    <ul>
-        <li><a href="peliculas/peppa.html">Peppa Pig</a></li>
-        <li><a href="peliculas/coco.html">Coco</a></li>
-        <li><a href="peliculas/clifford.html">Clifford, el gran perro rojo</a></li>
-        <li><a href="peliculas/zootopia.html">Zootopia</a></li>
-        <li><a href="peliculas/pawpatrol.html">Paw Patrol</a></li>
-    </ul>
+    <div class="container">
+        <div class="card">
+            <img src="imagenes/peppa.jpg" alt="#">
+            <h4>Peppa Pig</h4>
+            <a href="peliculas/peppa.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/coco.jpg" alt="#">
+            <h4>Coco</h4>
+            <a href="peliculas/coco.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/clifford.jpg" alt="#">
+            <h4>Clifford</h4>
+            <a href="peliculas/clifford.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/zootopia.jpg" alt="#">
+            <h4>Zootopia</h4>
+            <a href="peliculas/zootopia.html">Ver Película</a>
+        </div>
+        <div class="card">
+            <img src="imagenes/pawpatrol.jpg" alt="#">
+            <h4>Paw Patrol</h4>
+            <a href="peliculas/pawpatrol.html">Ver Película</a>
+        </div>
+    </div>
 
     <h4 style="color: white">Series</h4>
     <p style="color: white">No hay</p>
@@ -136,7 +266,7 @@
 
 <br/>
 
-<footer style="text-align: right; color: white">
+<footer >
     Todos los derechos reservados - Martinetflix © - UNSL 2022
     <br>
     Wsp: 266427142 - Correo: martinezrm1998@gmail.com
